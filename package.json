@@ -1,0 +1,19 @@
+{
+  "name": "wm-sim-ai",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "wm-sim": "^0.1.4"
+  }
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Trainer</title>
+  </head>
+  <body>
+    <div id="app">
+      <button id="train">train</button>
+      <progress id="progress" value="0" max="100">0%</progress>
+      <br />
+      <button id="save">save</button>
+      <button id="load">load</button>
+      <button id="download">download</button>
+      <br />
+      <button id="run">run</button>
+      <br />
+      <div id="log"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
