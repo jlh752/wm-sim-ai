@@ -3,7 +3,7 @@
 
 This repo uses reinforcement learning to train and utilise basic machine learning models capable of drafting teams for the game War Metal. Tensorflow.js is used to handle the actual machine learning. The simulation is executed using the [wm-sim](https://github.com/jlh752/wm-sim) package, please see it's repo for more info regarding War Metal battles.
 
-[demo](http://jlh752.github.io/wm-sim) *work in progress*
+[demo](http://jlh752.github.io/wm-sim-ai) *work in progress*
 
 ## Features
 * **self-play strategy** - where 2 AI agents take turns picking their next unit
